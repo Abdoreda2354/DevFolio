@@ -1,0 +1,234 @@
+#details figure img{width: 100%; }
+#details .part-1 {
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 35px;
+    padding-top: 47px;
+}
+#details figcaption h1{
+    font-size: 30.4px;
+}
+#details .icons li{
+    margin-left: 20px;
+    padding-left: 0;
+}
+#details .icons{
+    position: relative;
+}
+#details .icons::before {
+    content: '';
+    width: 4px;
+    height: 36px;
+    position: absolute;
+    top: -5px;
+    left: 1px;
+    background-color: #0078FF;
+}
+#details .text .vip{
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+#details .text .vip::before {
+    content: '';
+    width: 4px;
+    height: 67px;
+    position: absolute;
+    top: -17px;
+    left: -17px;
+    background-color: #0078FF;
+}
+/* ========================== */
+#details .search{
+    background-color: #fff;
+margin-left: 25px;
+margin-top: 60px;
+padding: 35px;
+padding-top: 47px;
+min-height: 15%;
+width: 100%;
+}
+#details .search h5{
+    margin-bottom: 20px;
+    font-size: 25.6px;
+    position: relative;
+    margin-left: 20px;
+}
+#details .search h5::before {
+    content: '';
+    width: 4px;
+    height: 31px;
+    position: absolute;
+    top: 0px;
+    left: -17px;
+    background-color: #0078FF;
+}
+#details .search form button{
+    background: #0078ff;
+    border: 0;
+    padding: 10px 20px;
+    height: 45px;
+    color: #fff;
+    border-radius: 2px;
+}
+#details .container .search form input{
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #DEE2E6;
+    outline: none;
+    transition: 0.2s;
+}
+
+#details .search form input:focus {
+    border: 1px solid #0078FF;
+    box-shadow: 0px 0px 0px 4px #C2DBFE;
+    border-radius: 0;
+  }
+#details .ul-1 h5{
+    margin-bottom: 35px;
+}
+  #details .ul-1 li{
+margin-bottom: 15px;
+position: relative;
+  }
+
+  #details .ul-1 li::before {
+    content: '';
+    width: 13px;
+    height: 2px;
+    position: absolute;
+    top: 12px;
+    left: -27px;
+    background-color: #0078FF;
+}
+  #details .ul-1 li a{
+    color: #000;
+    transition: 0.5s;
+  }
+  #details .ul-1 li a:hover{
+    color: #0078FF;
+  }
+  /* ========================== */
+  #details .comments{
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 3rem;
+  }
+#details .comments h4{
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 50px;
+}
+#details .comments h4::after {
+    content: '';
+    width: 95px;
+    height: 3px;
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    background-color: #0078FF;
+}
+#details .comment-1 .img{
+    width: 110px;
+    height: 110px;
+}
+#details .comment-details span{
+    color: #1E1E1E;
+}   
+#details .comment-details p{
+    color: #4E4E4E;
+}
+#details .comment-details h5{
+    font-size: 24px;
+}
+#details .comment-1{
+    margin-bottom: 60px;
+}
+#details .comments .reply{
+    left: 10%;
+    width: 80%;
+}
+
+/* ------------start form-------------- */
+#details .title h5{
+    font-size: 2rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#details .title h5::after{
+    content: '';
+    width: 17%;
+    height: 2.5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0078FF;
+    margin-top: 10px;
+}
+.form form input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #DEE2E6;
+    outline: none;
+    transition:  0.2s ;
+    
+}
+.form form .vip{
+width: 48.5%;
+border-radius: 8px;
+}
+
+.form form input:focus {
+    border: 1px solid #0078FF;
+    box-shadow: 0px 0px 0px 4px #C2DBFE;
+    border-radius: 0;
+  }
+  .form form textarea{
+    width: 100%;
+border-radius: 8px;
+    margin-bottom: 25px;
+    padding: 10px;
+    outline: none;
+    transition:  0.2s ;
+    border: 1px solid #DEE2E6;
+}
+
+.form form textarea:focus{
+    border: 1px solid #0078FF;
+    box-shadow: 0px 0px 0px 4px #C2DBFE;
+    border-radius: 0; 
+}
+
+.form form button{
+    background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.form form button:hover{
+    background-color: #3393FF;
+    box-shadow: 0px 0px 0px 3px #cde1f89b;
+}
+/* ------------end form-------------- */
+@media (max-width: 1199.98px) {
+#details .comment-1 .img{margin-right: 20px;}
+}
+@media (max-width: 767.98px) {   
+#details .search {margin-left: 0;}
+.form form .vip{width: 100%;border-radius: 8px;}
+#details .row .order1{order: 1;}
+#details .row .order2{order: 2;}
+#details .row .order3{order: 3;}
+#details .row .order4{order: 4;}
+}
