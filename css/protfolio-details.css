@@ -8,6 +8,65 @@
 body{
     background-color: #F5F5F5;
 }
+.color-black{
+    color: black!important;
+}
+nav a{
+    color: #fff !important;
+}
+nav .navbar-brand{
+    font-size: 28px;
+}
+#navbar-example2{
+    background-color: #000000d9 !important;
+}
+/* ---- ----------start nav-------------- */
+nav .hover::before {
+    content: '';
+    width: 0 ;
+    height: 2px ;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+nav .hover{
+    position: relative;
+}
+nav .hover:hover::before {
+    width: 50px !important;
+}
+nav .ul-1{
+    visibility: hidden;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25)
+}
+nav .dropdown:hover .ul-1 {
+    visibility: visible;
+}
+nav .deep-drop{
+    position: relative;
+}
+nav .ul-2{
+    position: absolute;
+    left: 163px;
+    top: -5px;
+    background-color: #fff;
+    padding: 12px;
+    visibility: hidden;
+    border-radius: 7px;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25)
+}
+nav .ul-1 a:hover {
+    color: #0078FF !important;
+}
+nav .deep-drop:hover .ul-2{
+visibility: visible;
+}
+
+/* ---- ----------end nav-------------- */
+
+/* ========================== */
 #caption{
 background: linear-gradient(#2c7ddfca, #2c7ddfca) ,url('../imges/overlay-bg.jpg');
 background-attachment: fixed;
@@ -84,4 +143,28 @@ flex-direction: column;
 }
 .part3 p{
     color: #4E4E4E;
+}
+
+footer{
+    background-color: #0062D3;
+    color: #FFF;
+}
+footer a{
+    color: #fff;
+}
+footer span{
+    font-weight: 900;
+}
+/* --------------end footer-------------- */
+.main-icon{
+    background-color: #0078FF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.main-icon i{
+    color: #fff;
 }
