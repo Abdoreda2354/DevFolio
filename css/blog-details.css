@@ -1,4 +1,12 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
 .color-black{
     color: black!important;
 }
@@ -58,6 +66,28 @@ visibility: visible;
 /* ---- ----------end nav-------------- */
 
 /* ========================== */
+#caption{
+    background: linear-gradient(#2c7ddfca, #2c7ddfca) ,url('../imges/overlay-bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     min-height: 50vh;
+     color: #fff;
+    
+    }
+    #caption h2{
+    
+        font-size: 56px;
+        margin-bottom: 30px;
+    }
+    #caption .caption-buttom span{
+        color: #CDE1F8;
+    }
 #details figure img{width: 100%; }
 #details .part-1 {
     background-color: #fff;
